@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "IMRAN@123I",
+    "password": "IMRAN@123i",
     "database": "BOOKING_DB_DEV",
     "host": "127.0.0.1",
     "dialect": "mysql"

@@ -1,4 +1,5 @@
-const {StatusCodes}=require('http-status-codes')
+const {StatusCodes}=require('http-status-codes');
+const { sequelize } = require('../../models');
 class ValidationError extends Error {
     constructor(error){
         super();
@@ -14,3 +15,5 @@ class ValidationError extends Error {
 }
 
 module.exports=ValidationError;
+
+// npx sequelize model:generate --name Booking --attributes flightId:integer,userId:integer,status:enum
