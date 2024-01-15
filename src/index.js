@@ -11,7 +11,7 @@ app.use('/api', v1ApiRoutes);
 app.listen(PORT, ()=>{
     console.log(`server has been connected ${PORT}`);
     // if(process.env.DB_SYNC){
-    //     // db.Sequelize.sync(alert:true)
+    //     db.Sequelize.sync({alert:true})
     // }
       
 })
